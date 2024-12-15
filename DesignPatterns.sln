@@ -9,8 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{5CA1F2D1-AF49-4C7E-AF0F-F3D7D303A1C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8028A2BF-0F0C-4CCE-887D-2BE0BCF6FC4D} = {CC3E365C-1301-44B4-8E29-838B933460A1}
 	EndGlobalSection
 EndGlobal
